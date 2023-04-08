@@ -1,0 +1,20 @@
+{
+    "31337": {
+        "explorerURL": "#"
+    },
+
+    "5": {
+        "explorerURL": "https://goerli.etherscan.io/",
+        "LINK": "0x326C977E6efc84E512bB9C30f76E30c160eD06FB",
+        "Operator": "0xB9756312523826A566e222a34793E414A81c88E1",
+        "TheRundownConsumerTest": {
+            "address": "0x314725f39f8527Df35DbBDe62e2566008B3CC5Aa"
+        },
+        "Bet": {
+            "address": "0x9bAF67b72934488a955EEDeDA59de9726C0fc448"
+        },
+        "PeerDuel": {
+            "address": "0x4145A042B1e39D254a557354d4D4d6eecE9162EC"
+        }
+    }
+}
