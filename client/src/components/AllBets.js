@@ -24,4 +24,3 @@ const AllBets = () => {
 }
 
 export default AllBets
-
