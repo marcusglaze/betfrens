@@ -43,7 +43,7 @@ const Home = () => {
                 endMessage={
                     <p>Bottom of list</p>
                 }
-                className='grid grid-cols-1 ml-4 mt-2 w-[32rem] gap-4 md:grid-cols-2 md:w-[64rem] xl:grid-cols-3 xl:w-[92rem]'
+                className='grid grid-cols-1 ml-4 mt-2 w-[29rem] gap-4 md:grid-cols-2 md:w-[64rem] xl:grid-cols-3 xl:w-[92rem]'
             >
                 {activeGames.map((game, index) => {
                     return (

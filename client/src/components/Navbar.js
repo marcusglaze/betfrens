@@ -52,7 +52,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className='flex flex-row py-2'>
+        <div className='flex flex-row py-2 w-screen'>
 
             <div className='flex flex-row items-center'>
                 <button onClick={toggleSidebar} className='px-2 mx-4 rounded-full hover:bg-slate-300 active:bg-slate-200'>
@@ -66,7 +66,7 @@ const Navbar = () => {
                 </Link>
             </div>
 
-            <div className='flex items-center justify-end w-full mx-5'>
+            <div className='flex items-center justify-end w-screen mr-5'>
                 {account ? (
                     <a 
                         href={`${config[chainId.chainId].explorerURL}/address/${account}`} 
