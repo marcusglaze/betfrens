@@ -103,8 +103,8 @@ const GameEntry = ({ game, index, showAllBets }) => {
     const handicapBets = bets.filter((b) => b.type === 'handicap')
     const overUnderBets = bets.filter((b) => b.type === 'over/under')
 
-    const activeBoxStyle = 'items-center justify-center bg-blue-500 border-2 border-blue-300 rounded-md w-16 text-xs text-white font-bold'
-    const notActiveBoxStyle = 'items-center justify-center border-2 border-blue-300 rounded-md w-16 text-xs hover:bg-blue-400'
+    //const activeBoxStyle = 'items-center justify-center bg-blue-500 border-2 border-blue-300 rounded-md w-16 text-xs text-white font-bold'
+    //const notActiveBoxStyle = 'items-center justify-center border-2 border-blue-300 rounded-md w-16 text-xs hover:bg-blue-400'
 
     const activeTeamStyle = 'p-2 bg-blue-400'
     const notActiveTeamStyle = 'p-2 hover:bg-gray-200'

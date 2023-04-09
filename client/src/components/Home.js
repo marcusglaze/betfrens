@@ -23,10 +23,10 @@ const Home = () => {
         }
     }
     
-    useEffect(() => { 
+    useEffect(() => {   
         // set default to show all games
         setActiveGames(games)
-    }, [])
+    }, [games])
 
     if (activeGames === null) {
         return <div>Loading...</div>

@@ -93,12 +93,14 @@ export const makeBet = async (provider, contract, type, gameId, betId, team, amo
                 formatAmount, 
                 { value: formatAmount }
             );
+            await transaction.wait();
         } else {
             transaction = await contract.connect(signer).acceptBet(
                 betId,
                 team,
                 { value: amount }
             );
+            await transaction.wait();
         }
     } catch (error) {
         console.log(error);

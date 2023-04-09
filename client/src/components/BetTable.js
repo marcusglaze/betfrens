@@ -41,9 +41,9 @@ const BetTable = ({ bets, games, showMyBets }) => {
             const data = createJsonData(bets, games)
             setJson(data)
         }
-    }, [json, bets])
+    }, [json, bets, games])
 
-    const headers = ['Placed', 'Kickoff', 'Event', 'Bet', 'Who']
+    //const headers = ['Placed', 'Kickoff', 'Event', 'Bet', 'Who']
 
     if (json === null) {
         return <div>Loading...</div>

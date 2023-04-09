@@ -249,9 +249,9 @@ export const gamesSelector = createSelector(
     gameResolves, 
     (gameCreates, gameResolves) => {
         // show games that are occurring in the next 48 hours
-        const date = new Date();
-        const startOfToday = parseInt(new Date(date.getFullYear(), date.getMonth(), date.getDate(), 0, 0, 0, 0).getTime())/1000;
-        const endOfTomorrow = parseInt(new Date(date.getFullYear(), date.getMonth(), date.getDate() + 1, 23, 59, 59, 999).getTime())/1000;
+        //const date = new Date();
+        //const startOfToday = parseInt(new Date(date.getFullYear(), date.getMonth(), date.getDate(), 0, 0, 0, 0).getTime())/1000;
+        //const endOfTomorrow = parseInt(new Date(date.getFullYear(), date.getMonth(), date.getDate() + 1, 23, 59, 59, 999).getTime())/1000;
 
         // filter games by date
         //gameCreates = gameCreates.filter((g) => g.startTime > startOfToday && g.startTime < endOfTomorrow);
